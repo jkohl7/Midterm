@@ -54,8 +54,25 @@ namespace TIcketObject
                 if (reply.Equals("N")) whosWatching = false;
 
             }
+            String[] userInput = new string[] { id, summ, status, prio, submit, assn, watch };
+              TDArray.Add(userInput);
 
+            //Create an instance of the ticket object
+           //   Ticket made = new Ticket(id, summ,status, prio, submit, assn, watch);
+
+            foreach (string[] l in TDArray)
+            {
+                for (int x = 0; x < 7; x++)
+                {
+                    sw.Write(l[x] + ",");
+
+                }
+                sw.WriteLine();
+
+            }
+            sw.Close();
 
         }
     }
 }
+
