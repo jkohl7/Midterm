@@ -19,9 +19,43 @@ namespace TIcketObject
                 string[] arr = line.Split(",");
                 TDArray.Add(arr);
             }
-            
+            sr.Close();
+            StreamWriter sw = new StreamWriter(file);
 
-            
+            //Promt the user 
+            Console.WriteLine("Enter TicketID");
+            string id = Console.ReadLine();
+            Console.WriteLine("Enter a summary of the ticket");
+            string summ = Console.ReadLine();
+            Console.WriteLine("Enter the status of the ticket");
+            string status = Console.ReadLine();
+            Console.WriteLine("Enter the priority of the ticket");
+            string prio = Console.ReadLine();
+            Console.WriteLine("Enter the submiter of the ticket");
+            string submit = Console.ReadLine();
+            Console.WriteLine("Enter the assigner of the ticket");
+            string assn = Console.ReadLine();
+
+
+            //Asks and gets data for multiple users
+            Console.WriteLine("Is anyone watching the ticket? (Y/N)");
+            string reply = Console.ReadLine().ToUpper();
+
+            bool whosWatching = true;
+            if (reply.Equals("N")) whosWatching = false;
+            string watch = "";
+            while (whosWatching)
+            {
+                Console.WriteLine("Who is watching?");
+                watch += Console.ReadLine();
+                watch += "|";
+                Console.WriteLine("Is there anyone else? (Y/N)");
+                reply = Console.ReadLine().ToUpper();
+                if (reply.Equals("N")) whosWatching = false;
+
+            }
+
+
         }
     }
 }
