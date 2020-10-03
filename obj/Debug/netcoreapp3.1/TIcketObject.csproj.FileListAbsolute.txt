@@ -1,0 +1,13 @@
+E:\.Net 2020\TIcketObject\bin\Debug\netcoreapp3.1\TIcketObject.exe
+E:\.Net 2020\TIcketObject\bin\Debug\netcoreapp3.1\TIcketObject.deps.json
+E:\.Net 2020\TIcketObject\bin\Debug\netcoreapp3.1\TIcketObject.runtimeconfig.json
+E:\.Net 2020\TIcketObject\bin\Debug\netcoreapp3.1\TIcketObject.runtimeconfig.dev.json
+E:\.Net 2020\TIcketObject\bin\Debug\netcoreapp3.1\TIcketObject.dll
+E:\.Net 2020\TIcketObject\bin\Debug\netcoreapp3.1\TIcketObject.pdb
+E:\.Net 2020\TIcketObject\obj\Debug\netcoreapp3.1\TIcketObject.csprojAssemblyReference.cache
+E:\.Net 2020\TIcketObject\obj\Debug\netcoreapp3.1\TIcketObject.AssemblyInfoInputs.cache
+E:\.Net 2020\TIcketObject\obj\Debug\netcoreapp3.1\TIcketObject.AssemblyInfo.cs
+E:\.Net 2020\TIcketObject\obj\Debug\netcoreapp3.1\TIcketObject.csproj.CoreCompileInputs.cache
+E:\.Net 2020\TIcketObject\obj\Debug\netcoreapp3.1\TIcketObject.dll
+E:\.Net 2020\TIcketObject\obj\Debug\netcoreapp3.1\TIcketObject.pdb
+E:\.Net 2020\TIcketObject\obj\Debug\netcoreapp3.1\TIcketObject.genruntimeconfig.cache
