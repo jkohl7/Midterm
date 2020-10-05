@@ -52,12 +52,12 @@ namespace TIcketObject
                 Console.WriteLine("Is there anyone else? (Y/N)");
                 reply = Console.ReadLine().ToUpper();
                 if (reply.Equals("N")) whosWatching = false;
-
             }
             String[] userInput = new string[] { id, summ, status, prio, submit, assn, watch };
               TDArray.Add(userInput);
 
             //Create an instance of the ticket object
+            
            //   Ticket made = new Ticket(id, summ,status, prio, submit, assn, watch);
 
             foreach (string[] l in TDArray)
