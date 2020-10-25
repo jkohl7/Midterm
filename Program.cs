@@ -8,6 +8,17 @@ namespace TIcketObject
     {
         static void Main(string[] args)
         {
+            string choice = null;
+            do{
+            //ask user what the want to create
+            Console.WriteLine("Select type which ticket form you want to create.");
+            Console.WriteLine("1.)Ticket -- 2.)Enhancement -- 3.)Task");
+            Console.WriteLine("Press enter to quit");
+            choice = Console.ReadLine();
+        
+        
+        if(choice == "1")
+        {
             //create array and read file
             ArrayList TDArray = new ArrayList();
             string file = "tickets.csv";
@@ -58,7 +69,7 @@ namespace TIcketObject
 
             //Create an instance of the ticket object
             
-           //   Ticket made = new Ticket(id, summ,status, prio, submit, assn, watch);
+              //Ticket made = new Ticket(id, summ,status, prio, submit, assn, watch);
 
             foreach (string[] l in TDArray)
             {
@@ -71,6 +82,17 @@ namespace TIcketObject
 
             }
             sw.Close();
+        }else if (choice == "2")
+        {
+            Console.WriteLine("This is 2");
+
+        }else if (choice == "3")
+        {
+            Console.WriteLine("This is 3");
+        }
+
+         } while (choice == "1" || choice == "2" || choice =="3");
+
 
         }
     }
