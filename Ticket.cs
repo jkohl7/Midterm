@@ -7,10 +7,10 @@ namespace TicketObject
     class Ticket
     {
     
-        private string id, summ, status, prio, submit, assn, watch;
+        private string id, summ, status, prio, submit, assn, watch, severity ;
 
 
-        public Ticket(string id, string summ, string status, string prio, string submit, string assn, string watch)
+        public Ticket(string id, string summ, string status, string prio, string submit, string assn, string watch, string severity)
         {
             this.id = id;
             this.summ = summ;
@@ -19,6 +19,7 @@ namespace TicketObject
             this.submit = submit;
             this.assn = assn;
             this.watch = watch;
+            this.severity = severity;
         }
 
    
@@ -57,7 +58,15 @@ namespace TicketObject
             return watch;
         }
 
+        public string getSeverity()
+        {
+            return severity;
+        }
+
 
     }
+
+
+
 
 }
