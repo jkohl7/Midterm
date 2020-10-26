@@ -7,10 +7,10 @@ namespace TicketObject
     class Ticket
     {
     
-        private string id, summ, status, prio, submit, assn, watch, severity ;
+        private string id, summ, status, prio, submit, assn, watch, severity, software, cost, reason, estimate, projectname, duedate ;
 
 
-        public Ticket(string id, string summ, string status, string prio, string submit, string assn, string watch, string severity)
+        public Ticket(string id, string summ, string status, string prio, string submit, string assn, string watch, string severity, string cost, string reason, string estimate, string projectname, string duedate)
         {
             this.id = id;
             this.summ = summ;
